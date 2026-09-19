@@ -1,0 +1,91 @@
+## From Gene Mutation to Disease: Investigating How DNA Sequence Changes Affect Protein Products and Human Phenotypes
+Student Name: Puyat, Doreen Marie G.
+
+Disease: Spinocerebellar Ataxia Type 3 (SCA3)
+Gene: ATXN3
+Documented Variant: CAG trinucleotide repeat expansion
+
+# Disease Background
+Spinocerebellar Ataxia Type 3 (SCA3) is an inherited neurodegenerative disorder caused by an expanded 
+CAG repeat in the ATXN3 gene. The expansion produces an abnormally long polyglutamine (polyQ) region 
+in the ataxin-3 protein. This altered protein can become prone to abnormal folding and aggregation, 
+contributing to dysfunction and degeneration of neurons, particularly in the nervous system.
+
+# Gene and Normal Protein Function
+The ATXN3 gene provides instructions for producing the ataxin-3 protein, a deubiquitinating enzyme 
+involved in cellular protein regulation and protein quality control. The normal ataxin-3 protein 
+contains a polyglutamine region and helps regulate ubiquitinated proteins within cells. Changes in 
+the number of CAG repeats in ATXN3 can alter the length of this glutamine-rich region and affect the 
+properties of the resulting protein.
+
+Reference transcript: NM_004993.6
+Reference protein: NP_004984.2
+
+# Documented Mutation
+The documented mutation investigated in this study is a CAG trinucleotide repeat expansion in 
+the ATXN3 coding sequence. For the computational model, the WT sequence containing 14 repeat units 
+was expanded to 68 total CAG repeat units, adding 54 additional CAG repeats. Because each CAG contains 
+three nucleotides, the expansion added 162 bp without changing the reading frame. Since CAG encodes glutamine (Q), 
+the mutant protein contained 54 additional glutamine residues, increasing the predicted protein length from 361 to 415 amino acids.
+
+# Methods
+The ATXN3 WT coding sequence (NM_004993.6) was analyzed using Galaxy. The WT CDS was translated to obtain 
+the predicted ataxin-3 protein sequence. A separate copy of the WT sequence was then modified by expanding 
+the CAG repeat region to produce a 68-repeat model. The WT and mutant sequences were translated using Galaxy 
+and compared based on CDS length, protein length, reading frame, amino-acid changes, and the presence of a 
+premature stop codon.
+A second experiment was performed by creating an artificial one-nucleotide deletion, removing the C nucleotide 
+at c.426 (CDS position 396). The artificial mutant was translated and compared with the WT and documented mutant proteins.
+
+# Results
+The WT ATXN3 CDS was 1,086 bp and produced a predicted protein of 361 amino acids. The documented repeat-expanded sequence 
+was 1,248 bp and produced a 415-amino-acid protein. The additional 162 bp represented 54 additional CAG repeats, resulting 
+in 54 additional glutamine residues. The reading frame and normal terminal stop codon were retained.
+The artificial c.426delC mutant had a CDS length of 1,085 bp. Because one nucleotide was deleted, the reading frame shifted 
+from the deletion site onward, resulting in changes to many downstream amino acids and the appearance of premature stop codons.
+
+# WT versus Documented Mutant Protein Comparison
+Gene: ATXN3
+Reference transcript: NM_004993.6
+Reference protein: NP_004984.2
+
+Documented variant: CAG trinucleotide repeat expansion
+Protein consequence: Expanded polyglutamine (polyQ) tract
+Mutation type: Trinucleotide repeat expansion / in-frame repeat expansion
+
+WT protein length: 361 amino acids
+Mutant protein length: 415 amino acids
+
+The WT and mutant proteins are identical before the expanded repeat region. The documented mutation adds 54 glutamine 
+residues to the polyglutamine tract. Because the expansion consists of complete three-nucleotide CAG units, the reading 
+frame is preserved and the downstream sequence remains aligned.
+
+# Artificial Mutation Experiment
+An artificial mutation was created by deleting one cytosine (C) at c.426 of the ATXN3 coding sequence, recorded 
+as NM_004993.6:c.426delC. The deletion removed one nucleotide and therefore caused a frameshift. Translation of 
+the artificial mutant showed changes in the downstream amino-acid sequence and the appearance of premature stop 
+codons. This demonstrates how even a single-nucleotide deletion can substantially alter the resulting protein sequence.
+
+Molecular Interpretation: Gene → Mutation → Protein → Cellular Effect → Phenotype
+
+ATXN3 gene → CAG repeat expansion → expanded polyglutamine tract → altered ataxin-3 protein properties → abnormal 
+protein folding/aggregation → neuronal dysfunction → neurodegeneration → SCA3
+
+The ATXN3 gene normally produces ataxin-3. In the documented mutation model, expansion of the CAG repeat adds 
+glutamine residues to the protein without shifting the reading frame. The resulting expanded polyglutamine tract 
+can alter the properties of ataxin-3 and is associated with abnormal protein folding and aggregation. These changes 
+can contribute to neuronal dysfunction and the neurological features of SCA3.
+
+# Limitations
+This study was limited to computational sequence analysis using Galaxy and did not include laboratory experiments 
+to directly measure protein folding, aggregation, cellular function, or neuronal effects. The results therefore 
+demonstrate predicted changes in DNA and protein sequences rather than directly proving the biological effects of 
+the mutation. In addition, the documented mutation was modeled using a 68-repeat expanded allele, so it represents 
+a computational model of a disease-associated repeat expansion rather than a single universal SCA3 mutation.
+
+# Conclusion
+The analysis demonstrated how a CAG repeat expansion in the ATXN3 gene can change the resulting ataxin-3 protein. 
+The documented mutation added 54 glutamine residues while preserving the reading frame, whereas the artificial 
+c.426delC mutation caused a frameshift and premature termination. Overall, the experiment showed how different types 
+of DNA mutations can produce different protein-level consequences and helped illustrate the molecular relationship 
+between ATXN3 mutations and SCA3.
