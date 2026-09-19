@@ -1,0 +1,26 @@
+# WT vs Documented Mutant ATXN3 Protein Sequence Comparison
+
+Gene:
+ATXN3 Reference transcript: NM_004993.6
+Reference protein: NP_004984.2
+
+Documented variant:
+ATXN3 CAG trinucleotide repeat expansion
+68-repeat expanded model
+
+Protein consequence: Expanded polyglutamine (polyQ) tract
+
+Mutation type: Trinucleotide repeat expansion / in-frame repeat expansion
+   
+WT protein length: 361 amino acids
+Mutant protein length: 415 amino acids
+
+WT:MESIFHEKQE...
+Mutant: MESIFHEKQE...
+Comparison: The WT and mutant ATXN3 proteins are identical before the expanded 
+repeat region. The documented mutation adds 54 additional CAG repeats, and because 
+each CAG codes for glutamine (Q), the mutant protein contains 54 additional glutamine 
+residues. The reading frame is preserved because the added 162 nucleotides are divisible 
+by three. Therefore, the main difference between the WT and mutant proteins is the expanded 
+polyglutamine tract, while the downstream sequence and normal stop codon are retained.
+
